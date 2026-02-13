@@ -49,7 +49,7 @@
 
 <body>
 
-<h1>Will you be my Valentine, Marshall Pattu? ❤️</h1>
+<h1>Will you be my Valentine, my sweet little angel Pattu? ❤️</h1>
 
 <img src="myphoto.jpg">
 <img src="herphoto.jpg">
@@ -62,7 +62,13 @@
 <audio autoplay loop>
   <source src="music.mp3" type="audio/mpeg">
 </audio>
-
+  
+<script>
+document.body.addEventListener("click", function(){
+  document.getElementById("bgMusic").play();
+});
+</script>
+  
 <script>
 function moveNo() {
   let x = Math.random() * (window.innerWidth - 100);
